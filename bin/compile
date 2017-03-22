@@ -22,7 +22,7 @@ export_env_dir() {
     done
   fi
 }
-echo "ENV_DIR=$3"
+
 export_env_dir $3
 
 # Enable verbose debugging if configured to -- though this has to come after
